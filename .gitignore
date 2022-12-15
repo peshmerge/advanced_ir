@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# The whole of GLC folder/repository
+generalized_contrastive_loss
