@@ -1,4 +1,5 @@
 export MAPILLARY_ROOT="/home/jovyan/APFIR/generalized_contrastive_loss/mapillary_sls/"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/miniconda3/lib
 
 python3 labeling/create_json_idx.py --dataset msls --root_dir "/home/jovyan/APFIR/generalized_contrastive_loss/msls/"
 
