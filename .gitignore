@@ -130,3 +130,8 @@ dmypy.json
 
 # The whole of GLC folder/repository
 generalized_contrastive_loss
+
+
+
+#vscode
+.vscode/
