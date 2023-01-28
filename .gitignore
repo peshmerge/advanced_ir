@@ -129,9 +129,7 @@ dmypy.json
 .pyre/
 
 # The whole of GLC folder/repository
-generalized_contrastive_loss
-
-
+generalized_contrastive_loss/
 
 #vscode
 .vscode/
