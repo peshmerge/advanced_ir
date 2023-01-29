@@ -10,7 +10,7 @@ echo "Installing required conda packages.."
 #conda install -n apfir ipykernel --yes
 #conda install -n apfir nb_conda_kernels --yes
 #conda install -n apfir pytorch-gpu pytorch-lightning ==yes
-conda install -n apfir ipykernel nb_conda_kernels pytorch-gpu pytorch-lightning h5py pandas nbformat tqdm Pillow scikit-image scikit-learn scipy tqdm timm ipywidgets torchinfo --yes
+conda install -n apfir ipykernel nb_conda_kernels pytorch-gpu pytorch-lightning h5py pandas nbformat tqdm Pillow scikit-image scikit-learn scipy tqdm timm matplotlib ipywidgets torchinfo --yes
 conda update -n base -c defaults conda --yes
 conda update --all --yes
 echo "Installing required conda packages done."
