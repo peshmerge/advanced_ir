@@ -1,0 +1,195 @@
+
+ONLY GLOBAL FEATURES 
+-----------------------
+K=30
+L2= None
+PCA = None
+
+all_recall@1: 0.758
+all_recall@5: 0.858
+all_recall@10: 0.884
+all_recall@20: 0.908
+all_map@1: 0.758
+all_map@5: 0.563
+all_map@10: 0.502
+all_map@20: 0.484
+
+-----------------------------------------------------
+K=50
+L2= None 
+PCA = None
+
+all_recall@1: 0.758
+all_recall@5: 0.858
+all_recall@10: 0.884
+all_recall@20: 0.908
+all_map@1: 0.758
+all_map@5: 0.563
+all_map@10: 0.502
+all_map@20: 0.484
+
+-----------------------------------------------------
+K=100
+L2= None 
+PCA = None
+
+all_recall@1: 0.758
+all_recall@5: 0.858
+all_recall@10: 0.884
+all_recall@20: 0.908
+all_map@1: 0.758
+all_map@5: 0.563
+all_map@10: 0.502
+all_map@20: 0.484
+
+-----------------------------------------------------
+
+
+K=30
+L2= Yes
+PCA = None
+Global features
+all_recall@1: 0.762
+all_recall@5: 0.864
+all_recall@10: 0.892
+all_recall@20: 0.904
+all_map@1: 0.762
+all_map@5: 0.566
+all_map@10: 0.505
+all_map@20: 0.489
+
+-----------------------------------------------------
+
+K=50
+L2= Yes
+PCA = None
+
+all_recall@1: 0.762
+all_recall@5: 0.864
+all_recall@10: 0.892
+all_recall@20: 0.904
+all_map@1: 0.762
+all_map@5: 0.566
+all_map@10: 0.505
+all_map@20: 0.489
+
+-----------------------------------------------------
+K=100
+L2= Yes
+PCA = None
+
+all_recall@1: 0.762
+all_recall@5: 0.864
+all_recall@10: 0.892
+all_recall@20: 0.904
+all_map@1: 0.762
+all_map@5: 0.566
+all_map@10: 0.505
+all_map@20: 0.489
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FUSION OF LOCAL & GLOBAL FEATURES 
+-----------------------
+K=30
+L2=Yes
+Dilation=Yes
+Fusion=Yes
+PCA = None
+
+all_recall@1: 0.757 
+all_recall@5: 0.858 
+all_recall@10: 0.885 
+all_recall@20: 0.907 
+all_map@1: 0.757 
+all_map@5: 0.563 
+all_map@10: 0.502 
+all_map@20: 0.484
+
+
+-----------------------------------------------------
+
+K=50
+L2=Yes
+Dilation=Yes
+Fusion=Yes
+PCA = None
+
+all_recall@1: 0.757
+all_recall@5: 0.858
+all_recall@10: 0.884
+all_recall@20: 0.907
+all_map@1: 0.757
+all_map@5: 0.563
+all_map@10: 0.502
+all_map@20: 0.484
+
+-----------------------------------------------------
+
+K=100
+L2=Yes
+Dilation=Yes
+Fusion=Yes
+PCA = None
+
+all_recall@1: 0.757 
+all_recall@5: 0.858 
+all_recall@10: 0.884 
+all_recall@20: 0.908 
+all_map@1: 0.757 
+all_map@5: 0.563 
+all_map@10: 0.502 
+all_map@20: 0.484
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+K=30
+L2=Yes
+CR_NORM=YES
+Dilation=Yes
+Fusion=Yes
+PCA = None
+
+all_recall@1: 0.762 
+all_recall@5: 0.864 
+all_recall@10: 0.892 
+all_recall@20: 0.905 
+all_map@1: 0.762 
+all_map@5: 0.566 
+all_map@10: 0.505 
+all_map@20: 0.488
+
+-----------------------------------------------------
+
+K=50
+L2=Yes
+CR_NORM=YES
+Dilation=Yes
+Fusion=Yes
+PCA = None
+
+all_recall@1: 0.762 
+all_recall@5: 0.864 
+all_recall@10: 0.892 
+all_recall@20: 0.905 
+all_map@1: 0.762 
+all_map@5: 0.566 
+all_map@10: 0.505 
+all_map@20: 0.488
+
+-----------------------------------------------------
+K=100
+L2=Yes
+CR_NORM=YES
+Dilation=Yes
+Fusion=Yes
+PCA = None
+
+all_recall@1: 0.762 
+all_recall@5: 0.864 
+all_recall@10: 0.892 
+all_recall@20: 0.905 
+all_map@1: 0.762 
+all_map@5: 0.566 
+all_map@10: 0.505 
+all_map@20: 0.488
